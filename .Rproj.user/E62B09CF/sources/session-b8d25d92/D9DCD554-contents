@@ -1,0 +1,39 @@
+Blog: 
+https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/#V-additional-features
+
+Pour publier
+https://quarto.org/docs/output-formats/html-publishing.html
+https://quarto.org/docs/publishing/github-pages.html
+
+Pour ajouter un nouvel ordinateur : 
+https://aragonalvarez.medium.com/how-to-setup-your-git-github-account-on-another-computer-abd32d712ef5 
+
+(git init)
+
+git add .
+git commit -m "Correction25/10/23"
+
+(
+git remote add origin https://github.com/MathieuFerry/mathieuferry.github.io
+)
+
+git branch -M main
+
+git push -u origin main
+
+
+
+
+quarto render --profile english
+quarto render --profile french
+git add .
+git commit -m "Update3/12/24"
+git branch -M main
+git push -u origin main
+
+quarto render --profile english
+quarto render --profile french
+git add .
+git commit -m "Liencasse"
+git branch -M main
+git push -u origin main
